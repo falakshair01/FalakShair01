@@ -11,7 +11,7 @@
 
 <!-- - 👨‍💻 You can also check out my portfolio at [https://falakshair.me/](https://falakshair.me/) -->
 
-- 💬 Ask me about **Python, JavaScript**
+- 💬 Ask me about **MLSys, DevOps, RAGs, Python, JavaScript**
 
 - 📫 How to reach me **falakshair563@gmail.com**
 
@@ -19,8 +19,6 @@
 <p align="left">
 <a href="https://twitter.com/falakshair563" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="falakshair563" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/falak-shair-8ba5b6208" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="falak-shair-8ba5b6208" height="30" width="40" /></a>
-<a href="https://fb.com/your.falakshair" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="your.falakshair" height="30" width="40" /></a>
-<a href="https://instagram.com/falakshair01" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="falak_shairrr" height="30" width="40" /></a>
 </p>
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=falakshair01&show_icons=true&locale=en&layout=compact" alt="falak-shair" /></p>
