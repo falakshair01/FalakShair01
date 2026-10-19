@@ -1,28 +1,31 @@
-<!-- [![MasterHead](https://r7q6w9z6.rocketcdn.me/career/wp-content/uploads/2021/06/2-46.gif)]([https://fs;/](https://falakshair.me/) -->
+### Falak Shair
 
+**Forward Deployed Engineer · Enterprise AI · ML Infrastructure** — Karachi, Pakistan
 
-<h1 align="center">Hi 👋, I'm Falak Shair</h1>
-<h3 align="center"> Self-motivated ML Software Engineer with a strong academic interest in Generative AI, Computer Vision, and Language Models. Currently building LLM-based systems </h3>
+I put AI systems into production inside banks, and I study why LLM inference is slow at the hardware level.
 
+**Enterprise delivery.** At wAI Industries I deploy production AI for major Pakistani banks: RAG assistants and WhatsApp AI assistants integrated with core-banking APIs, Kafka-based event pipelines, Redis on GCP, on-prem Docker deployments, infrastructure provisioning, and security hardening — from first workshop to production handover. That client work is private.
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=falak-shair&label=Profile%20views&color=0e75b6&style=flat" alt="falak-shair" /> </p>
+**AI performance.** On my own time I profile LLM inference and write Triton kernels, measuring on real hardware before optimizing.
 
-<p align="left"> <a href="https://twitter.com/falakshair563" target="blank"><img src="https://img.shields.io/twitter/follow/falakshair563?logo=twitter&style=for-the-badge" alt="falakshair563" /></a> </p>
+---
 
-<!-- - 👨‍💻 You can also check out my portfolio at [https://falakshair.me/](https://falakshair.me/) -->
+#### Selected work
 
-- 💬 Ask me about **MLSys, DevOps, RAGs, Python, JavaScript**
+| Project | What it shows | Measured result |
+|---|---|---|
+| [**mlsys-journey**](https://github.com/falakshair01/mlsys-journey) | GPU profiling of transformer inference, vLLM vs HuggingFace serving, Triton kernels | GPT-2 @ seq 512: MLP 46% of GPU time vs attention 8.8%. vLLM needs ~0.9 GB beyond model weights (OOM on a 4 GB GPU). Fused softmax: 1.49× over naive Triton, on par with PyTorch |
+| [**ml-inference-scheduler**](https://github.com/falakshair01/ml-inference-scheduler) | Load-aware routing of inference requests across mixed GPU/CPU workers, Redis state, Prometheus/Grafana, Docker Compose | Prototype with simulated workers |
 
-- 📫 How to reach me **falakshair563@gmail.com**
+#### Writing
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/falakshair563" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="falakshair563" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/falak-shair-8ba5b6208" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="falak-shair-8ba5b6208" height="30" width="40" /></a>
-</p>
+- [I Profiled LLM Inference from First Principles — Here's What I Found](https://medium.com/@falakshair563/i-profiled-llm-inference-from-first-principles-heres-what-i-found-823083e502dc)
+- [I Wrote My First GPU Kernel — Here's What Changed](https://medium.com/@falakshair563/i-wrote-my-first-gpu-kernel-heres-what-changed-3bfdacd6fe57)
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=falakshair01&show_icons=true&locale=en&layout=compact" alt="falak-shair" /></p>
+#### Tools I use in production
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=falakshair01&show_icons=true&locale=en" alt="falak shair" /></p>
+Python (FastAPI, Django) · Node.js / TypeScript · Kafka · Redis · Docker · GCP & Azure · PyTorch · Triton · vLLM
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=falakshair01&" alt="falak shair" /></p>
+#### Contact
+
+[LinkedIn](https://www.linkedin.com/in/falak-shair-software-engineer) · [Medium](https://medium.com/@falakshair563) · falakshair563@gmail.com
